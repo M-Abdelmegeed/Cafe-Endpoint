@@ -9,7 +9,7 @@ const addProduct = async (req, res) => {
     quantity: body.quantity,
   });
   await newProduct.save();
-  res.send("New product added successfully!");
+  res.send("New order added successfully!");
 };
 
 module.exports = addProduct;
